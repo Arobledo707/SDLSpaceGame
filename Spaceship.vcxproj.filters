@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Collisions">
+      <UniqueIdentifier>{356eb2be-45f7-442c-8d7b-8f5c4a09e40f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StateMachines">
+      <UniqueIdentifier>{b0b9e46a-08fb-4ac7-84d4-ab935b9fa5f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StateMachines\GameStates">
+      <UniqueIdentifier>{0f00b8f0-2f97-4300-94d2-46ecedab50b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StateMachines\GameStates\GameStateData">
+      <UniqueIdentifier>{f5bd1a3d-cae9-4bdb-8a69-3e2e1b8d0a60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Factories">
+      <UniqueIdentifier>{7f42ffb0-2ecd-46f4-b6ee-505b5a7af56d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects">
+      <UniqueIdentifier>{4d7c8c8d-3069-4c28-afc7-870de9d826e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ResourceManager">
+      <UniqueIdentifier>{b4bce054-22c2-4266-adc6-5fe909554891}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ObserverUI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStateUpgrade.cpp">
+      <Filter>StateMachines\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStateMachine.cpp">
+      <Filter>StateMachines\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStateMenu.cpp">
+      <Filter>StateMachines\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStatePlay.cpp">
+      <Filter>StateMachines\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStateQuit.cpp">
+      <Filter>StateMachines\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>StateMachines\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionShapePoint.cpp">
+      <Filter>Collisions</Filter>
+    </ClCompile>
+    <ClCompile Include="Collisions.cpp">
+      <Filter>Collisions</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionShape.cpp">
+      <Filter>Collisions</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionShapeAABB.cpp">
+      <Filter>Collisions</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionShapeCircle.cpp">
+      <Filter>Collisions</Filter>
+    </ClCompile>
+    <ClCompile Include="StateMachine.cpp">
+      <Filter>StateMachines</Filter>
+    </ClCompile>
+    <ClCompile Include="Background.cpp">
+      <Filter>StateMachines\GameStates\GameStateData</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyFactory.cpp">
+      <Filter>Factories</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectileFactory.cpp">
+      <Filter>Factories</Filter>
+    </ClCompile>
+    <ClCompile Include="UIText.cpp">
+      <Filter>StateMachines\GameStates\GameStateData</Filter>
+    </ClCompile>
+    <ClCompile Include="UIElement.cpp">
+      <Filter>StateMachines\GameStates\GameStateData</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Projectile.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="ShipEnemy.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="SpiderEnemy.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Wingman.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticBackground.cpp">
+      <Filter>StateMachines\GameStates\GameStateData</Filter>
+    </ClCompile>
+    <ClCompile Include="BackgroundFactory.cpp">
+      <Filter>Factories</Filter>
+    </ClCompile>
+    <ClCompile Include="RocketFactory.cpp">
+      <Filter>Factories</Filter>
+    </ClCompile>
+    <ClCompile Include="Rocket.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Justice.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Typedefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Constants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ObserverUI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStateUpgrade.h">
+      <Filter>StateMachines\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>StateMachines\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStateMachine.h">
+      <Filter>StateMachines\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStateMenu.h">
+      <Filter>StateMachines\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStatePlay.h">
+      <Filter>StateMachines\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStateQuit.h">
+      <Filter>StateMachines\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionShapePoint.h">
+      <Filter>Collisions</Filter>
+    </ClInclude>
+    <ClInclude Include="Collisions.h">
+      <Filter>Collisions</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionShape.h">
+      <Filter>Collisions</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionShapeAABB.h">
+      <Filter>Collisions</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionShapeCircle.h">
+      <Filter>Collisions</Filter>
+    </ClInclude>
+    <ClInclude Include="StateMachine.h">
+      <Filter>StateMachines</Filter>
+    </ClInclude>
+    <ClInclude Include="Background.h">
+      <Filter>StateMachines\GameStates\GameStateData</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectileFactory.h">
+      <Filter>Factories</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyFactory.h">
+      <Filter>Factories</Filter>
+    </ClInclude>
+    <ClInclude Include="UIText.h">
+      <Filter>StateMachines\GameStates\GameStateData</Filter>
+    </ClInclude>
+    <ClInclude Include="UIElement.h">
+      <Filter>StateMachines\GameStates\GameStateData</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticBackground.h">
+      <Filter>StateMachines\GameStates\GameStateData</Filter>
+    </ClInclude>
+    <ClInclude Include="SpiderEnemy.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="ShipEnemy.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Wingman.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="BackgroundFactory.h">
+      <Filter>Factories</Filter>
+    </ClInclude>
+    <ClInclude Include="RocketFactory.h">
+      <Filter>Factories</Filter>
+    </ClInclude>
+    <ClInclude Include="Rocket.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Justice.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
